@@ -4,4 +4,4 @@
 
 This link take you to the full gantt chart
 
-[Full Gantt Chart](Bibliotech.mermaid)
+[Full Gantt Chart](docs/Bibliotech.mermaid)
