@@ -18,7 +18,8 @@ project-root/
 ├── README.md                  # Main documentation
 ├── LICENSE                    # Project license
 └── docs/
-    └── Bibliotech.mpp     # Full Gantt chart (MSProject)
+    ├── Bibliotech.mpp         # Full Gantt chart (MSProject)        
+    └── Bibliotech.mermaid     # Full Gantt chart (Mermaid)     
 ```
 
 ---
