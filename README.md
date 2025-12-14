@@ -28,7 +28,7 @@ project-root/
 
 Click the link below to view the complete Mermaid Gantt diagram:
 
-➡️ **[Open the full Gantt Chart](docs/Bibliotech.mpp)**
+➡️ **[Open the full Gantt Chart](docs/Bibliotech.mermaid)**
 
 ---
 
