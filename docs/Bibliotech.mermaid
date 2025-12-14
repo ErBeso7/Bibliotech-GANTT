@@ -1,21 +1,34 @@
+---
+config:
+  theme: 'base'
+  themeVariables:
+    primaryColor: '#BB2528'
+    primaryTextColor: '#000'
+    primaryBorderColor: '#7C0000'
+    lineColor: '#F8B229'
+    secondaryColor: '#006100'
+    tertiaryColor: '#fff'
+---
+
 gantt
     title Bibliotech Project Gantt
     dateFormat  DD-MM-YYYY
     axisFormat  %d %b %Y
 
     section Analysis
-    Submit the questionary      :a1, 09-12-2025, 2d
-    Analizing the data          :a2, after a1, 1d
-    Creating the report         :a3, after a2, 3d
+    Submit the questionary (2 Days)      :a1, 09-12-2025, 2d
+    Analizing the data (1 Day)           :a2, after a1, 1d
+    Creating the report (1 Day)          :a3, after a2, 1d
 
-    Discussion with the team    :a4, after a3, 1d
+    section Planning 
+    Discussion with the team (15/12/2025):a4, after a3, 1d
 
     section Design
-    Logo Creation                 :b0, after a4, 5d
-    UI Designing                  :b1, after b0, 5d
-    Wireframes                    :b2, after b1, 5d
-    Mockups UI and approval       :b3, after b2, 5d
-%% --------------------------------------------------------------
+    Logo Creation (7 Days)               :b0, after a4, 7d
+    UI Designing (7 Days)                :b1, after b0, 7d
+    Wireframes (6 Days)                  :b2, after b1, 6d
+    Mockups UI and approval (5 Days)     :b3, after b2, 5d
+
     section Development
     Project Setup                 :c1, after b3, 5d
     Platform Development          :c2, after c1, 25d
