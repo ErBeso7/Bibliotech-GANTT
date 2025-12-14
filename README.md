@@ -18,7 +18,7 @@ project-root/
 ├── README.md                  # Main documentation
 ├── LICENSE                    # Project license
 └── docs/
-    └── Bibliotech.mermaid     # Full Gantt chart (Mermaid format)
+    └── Bibliotech.mpp     # Full Gantt chart (MSProject)
 ```
 
 ---
@@ -27,20 +27,7 @@ project-root/
 
 Click the link below to view the complete Mermaid Gantt diagram:
 
-➡️ **[Open the full Gantt Chart](docs/Bibliotech.mermaid)**
-
----
-
-## 🛠️ **How to View the Mermaid Gantt Chart**
-
-GitHub supports Mermaid natively.
-If the file does not render automatically:
-
-1. Open the `.mermaid` file in GitHub
-2. Click the **"Show Mermaid"** button at the top-right
-3. The chart will render instantly
-
-Alternatively, you can paste the code into any Mermaid-compatible viewer (VS Code plugin, mermaid.live, etc.).
+➡️ **[Open the full Gantt Chart](docs/Bibliotech.mpp)**
 
 ---
 
