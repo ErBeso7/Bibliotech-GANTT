@@ -11,36 +11,39 @@ config:
 ---
 
 gantt
-    title Bibliotech Project Gantt
-    dateFormat  DD-MM-YYYY
+    title Bibliotech Project Plan
+    dateFormat  YYYY-MM-DD
     axisFormat  %d %b %Y
 
     section Analysis
-    Submit the questionary (2 Days)         :a1, 09-12-2025, 2d
-    Analizing the data (1 Day)              :a2, after a1, 1d
-    Creating the report (1 Day)             :a3, after a2, 1d
-
-    section Planning 
-    Discussion with the team (15/12/2025)   :a4, 15-12-2025, 1d
+    Requirements Analysis                : 2025-12-09, 2025-12-12
+    Stakeholder Meeting                  : 2025-12-15, 1d
+    Questionnaire Submission             : 2025-12-09, 2025-12-10
+    Data Analysis                        : 2025-12-11, 2025-12-12
+    Report Drafting                      : 2025-12-12, 1d
 
     section Design
-    Logo Creation (5 Days)                  :b0, after a4, 5d
-    UI Designing (5 Days)                   :b1, after b0, 5d
-    Wireframes (5 Days)                     :b2, after b1, 5d
-    Mockups UI and approval (10 Days)       :b3, after b2, 10d
+    Logo Design                          : 2025-12-16, 2025-12-22
+    UI Design                            : 2025-12-23, 2025-12-29
+    Wireframing                          : 2025-12-30, 2026-01-05
+    UI Mockup & Approval                 : 2026-01-06, 2026-01-19
 
     section Development
-    Project Setup (2 Days)                  :c1, after b3, 2d
-    Platform Development (24 Days)          :c2, after c1, 24d
-    Library Digitalization (18 Days)        :c3, after c2, 18d
+    Initial Development Sprint           : 2025-12-16, 2026-01-09
+    Core Platform Development            : 2026-01-12, 2026-02-24
+    Digital Library Implementation       : 2026-02-25, 2026-03-20
+    Feature Completion                   : 2026-03-23, 2026-04-03
+    Optimization & Refactoring           : 2026-04-06, 2026-04-17
+    Final Bug Fixing & Stabilization     : 2026-04-20, 2026-04-23
 
-    section Testing
-    General Testing (4 Days)                :d1, after c3, 4d
-    Tests Report (1 Day)                    :d2, after d1, 1d
+    section Testing & Quality Assurance
+    System Testing                       : 2026-03-23, 2026-03-26
+    Test Report                          : 2026-03-27, 1d
 
-    section Security
-    Security and GDPR Review (3 Days)       :s1, after d2, 3d
+    section Security & Compliance
+    Security Review & GDPR Compliance    : 2026-03-30, 2026-04-01
 
-    section Report/Presentation
-    Final Report (2 Days)                   :e1, after s1, 2d
-    Final Presentation (5 Days)             :e2, after e1, 5d
+    section Documentation & Delivery
+    Final Documentation                 : 2026-04-02, 2026-04-10
+    Final Presentation                  : 2026-04-13, 2026-04-23
+
